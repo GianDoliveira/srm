@@ -31,7 +31,7 @@ function Navbar() {
     const pathname = usePathname();
 
     return (
-        <nav className={`w-screen fixed z-10 flex items-center justify-between flex-wrap bg-blue-800 px-2 py-1 transition-transform duration-300 ${isVisible ? '' : '-translate-y-full'}`}>
+        <nav className={`w-screen fixed z-10 flex items-center justify-between flex-wrap bg-blue-800 px-2 transition-transform duration-300 ${isVisible ? '' : '-translate-y-full'}`}>
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <img src="/srm1.png" className="size-44" alt="Logo" />
             </div>
@@ -48,13 +48,13 @@ function Navbar() {
                         <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/">Início</Link>
                     </li>
                     <li className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
-                        <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/sobre">Sobre nós</Link>
+                        <Link className={`link ${pathname === '/sobre' ? 'active' : ''}`} href="/sobre">Sobre nós</Link>
                     </li>
                     <li className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
-                        <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/projetopai">Projeto PAI</Link>
+                        <Link className={`link ${pathname === '/projetopai' ? 'active' : ''}`} href="/projetopai">Projeto PAI</Link>
                     </li>
                     <li className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
-                        <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/escomiw">ESCOMIW</Link>
+                        <Link className={`link ${pathname === '/escomiw' ? 'active' : ''}`} href="/escomiw">ESCOMIW</Link>
                     </li>
                 </ul>
             </div>

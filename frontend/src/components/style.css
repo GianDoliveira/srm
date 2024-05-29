@@ -63,6 +63,7 @@
   transform: translateY(-100%);
 }
 
-/* .active { 
+.active { 
   color: orange;
-} */
+  font-size: large;
+}
