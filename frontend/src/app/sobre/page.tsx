@@ -8,7 +8,7 @@ const membros = [
     {
         imagem: './photobio1.png',
         nome: 'Elison Ferreira',
-        descricaoLongo: 'Pastoreando a Frente Missionária da IMW em Hiterland, Belford Roxo desde 2020, o Coordenador Regional da Escomiw é formado como Bacharel em Teologia, pós graduado em Coaching Cristão, Psicopedagogia e Gestão estratégica de Pessoas, Liderança e Mentoria Cristã. Formado em Práticas de Ensino pela Força Aérea, atua como professor de matérias teológicas, homilética e exegese, sendo o idealizador do Instituto Dokimos de Ensino.Dentre as formações complementares, é Psicanalista Clínico, Capelão Escolar e possui especialização em Plantação e Revitalização de Igrejas. O aspirante Elison, juntamente com a equipe da Escola Missionária Wesleyana(ESCOMIW 1 Região) realiza treinamentos e pratica evangelística de forma dinâmico, Inovadora e flexível buscando incentivar as igrejas locais no trabalho de evangelização urbana e também despertar vocacionados para o campo missionário.'
+        descricaoLongo: 'Pastoreando a Frente Missionária da IMW em Hiterland, Belford Roxo desde 2020, o Coordenador Regional da Escomiw é formado como Bacharel em Teologia, pós graduado em Coaching Cristão, Psicopedagogia e Gestão estratégica de Pessoas, Liderança e Mentoria Cristã. Formado em Práticas de Ensino pela Força Aérea, atua como professor de matérias teológicas, homilética e exegese, sendo o idealizador do Instituto Dokimos de Ensino. Dentre as formações complementares, é Psicanalista Clínico, Capelão Escolar e possui especialização em Plantação e Revitalização de Igrejas. O aspirante Elison, juntamente com a equipe da Escola Missionária Wesleyana(ESCOMIW 1 Região) realiza treinamentos e pratica evangelística de forma dinâmico, Inovadora e flexível buscando incentivar as igrejas locais no trabalho de evangelização urbana e também despertar vocacionados para o campo missionário.'
     },
     {
         imagem: './photobio2.png',
@@ -139,7 +139,7 @@ function About() {
             <main className="mb-10 flex flex-col">
                 <FadeInDown>
                 <h1 className="text-center text-5xl font-bold mb-10 text-[#080451]">NOSSA EQUIPE</h1>
-                    <div className="grid lg:grid-cols-3 gap-3 justify-center items-center">
+                    <div className="grid md:grid-cols-2 xl:grid-cols-3  gap-3 justify-center items-center">
                         {membros.map((membro, index) => (
                             <Team
                                 key={index}

@@ -8,12 +8,27 @@
   padding: 0 1.5rem;
 }
 
-.mySwiper1,
-.swiper {
-  padding-top: 50px;
+.banner1 {
+  width: 100%;
+  height: auto;
+  background-image: url('../../public/cursocap.jpg');
   background-position: center;
-  object-fit: cover;
-  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner2 {
+  width: 100%;
+  height: auto;
+  background-image: url('../../public/bannerpai.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .banner1 {
+    background-image: url('../../public/cursocapmobile.jpg');
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .swiper-slide {
@@ -34,6 +49,7 @@
   height: 350px;
   font-size: 3rem;
 }
+
 .mySwiper h1 {
   position: relative;
   top: 6rem;

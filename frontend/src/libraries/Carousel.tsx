@@ -13,7 +13,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export const BannerImage = () => {
     return (
-        <div className=''>
+        <div>
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
@@ -28,21 +28,15 @@ export const BannerImage = () => {
                 modules={[Navigation, Autoplay, Pagination]}
                 className="mySwiper1">
                 <SwiperSlide>
-                    <Image
-                        src="/bannerpai.jpg"
+                    <img
                         alt="projeto pai"
-                        width={800} 
-                        height={400} 
-                        layout="responsive" 
+                        className='banner1'
                     />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image
-                        src="/cursocap.jpg"
+                    <img
                         alt="curso capacitação liderança"
-                        width={800} 
-                        height={400} 
-                        layout="responsive" 
+                        className='banner2'
                     />
                 </SwiperSlide>
             </Swiper>
