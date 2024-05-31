@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from "react";
+import Image from "next/image";
 
 import styles from "./Team.module.css";
 
@@ -15,7 +16,10 @@ function Team({ imagem, nome, descricaoLongo }: any) {
         <div className="md:w-1/3">
             <div className="bg-slate-200 rounded-lg shadow-md">
                 <div className={styles.image}>
-                    <img src={imagem} alt={nome} className={styles.imageIcon} />
+                    <img
+                    src={imagem} 
+                    alt={nome} 
+                    className={styles.imageIcon} />
                 </div>
                 <div className={styles.description}>
                     <h1 className="text-3xl font-bold">{nome}</h1>

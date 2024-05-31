@@ -28,13 +28,15 @@ export const BannerImage = () => {
                 modules={[Navigation, Autoplay, Pagination]}
                 className="mySwiper1">
                 <SwiperSlide>
-                    <img
+                    <Image
+                        src=''
                         alt="projeto pai"
                         className='banner1'
                     />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img
+                    <Image
+                        src=''
                         alt="curso capacitação liderança"
                         className='banner2'
                     />

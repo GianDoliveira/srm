@@ -8,7 +8,6 @@ export default function Home() {
       <section className="text-center flex relative top-32 mb-40">
         <div className="flex justify-center max-lg:flex-wrap items-center m-10">
           <div className="my-10 lg:w-1/2">
-
             <h1 className="border p-10 text-3xl font-bold text-[#080451]">CURSOS</h1>
             <p className="text-xl p-3">Conheça os nossos cursos e futuros eventos clicando no botão abaixo!</p>
             <button className="border rounded-none bg-[#0f09a1] hover:bg-white text-white hover:text-[#0f09a1] border-[#0f09a1] transition duration-300 py-5 px-10 mt-5">Informações</button>
