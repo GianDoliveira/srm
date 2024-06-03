@@ -21,9 +21,9 @@ function Team({ imagem, nome, descricaoLongo }: any) {
                     alt={nome} 
                     className={styles.imageIcon} />
                 </div>
-                <div className={styles.description}>
+                <div className={`${styles.description}`}>
                     <h1 className="text-3xl font-bold">{nome}</h1>
-                    {mostrarMais && <p className="mt-2">{descricaoLongo}</p>}
+                    {mostrarMais && <p className="mt-2 flex">{descricaoLongo}</p>}
                     <button onClick={toggleMostrarMais} className={styles.button}>
                         {mostrarMais ? 'Mostrar menos' : 'Mostrar mais'}
                     </button>

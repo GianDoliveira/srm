@@ -10,14 +10,12 @@
 
 .banner1 {
   width: 100%;
-  height: auto;
   background-image: url('../../public/cursocap.jpg');
   background-position: center;
   background-size: cover;
 }
 .banner2 {
   width: 100%;
-  height: auto;
   background-image: url('../../public/bannerpai.jpg');
   background-position: center;
   background-size: cover;
@@ -28,6 +26,12 @@
     background-image: url('../../public/cursocapmobile.jpg');
     background-size: cover;
     background-position: center;
+  }
+  .banner2 {
+    background-image: url('../../public/projetomobile.jpg');
+    background-size: cover;
+    position: relative;
+    top: 100px;
   }
 }
 

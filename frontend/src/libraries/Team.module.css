@@ -9,10 +9,8 @@
 }
 
 .description { 
-    display: block;
     width: 30rem;
-    padding: 3rem;
-    text-align: center;
+    padding: 2rem 0;
 }
 
 .button {

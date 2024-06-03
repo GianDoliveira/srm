@@ -34,7 +34,7 @@ function Navbar() {
     return (
         <nav className={`w-screen fixed z-10 flex items-center justify-between flex-wrap bg-blue-800 px-2 transition-transform duration-300 ${isVisible ? '' : '-translate-y-full'}`}>
             <div className="flex items-center flex-shrink-0 text-white mr-6">
-                <Image src="/srm1.png" width={176} height={176} alt="Logo" />
+                <Image src="/srm1.png" width={176} priority height={176} alt="Logo" />
             </div>
             <div className="block lg:hidden">
                 <div className={`nav-icon ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(!isOpen)}>
