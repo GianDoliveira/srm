@@ -29,6 +29,7 @@
   }
   .banner2 {
     background-image: url('../../public/projetomobile.jpg');
+    background-position: center center;
     background-size: cover;
     position: relative;
     top: 100px;

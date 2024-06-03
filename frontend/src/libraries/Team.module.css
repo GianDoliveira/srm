@@ -20,3 +20,12 @@
     background-color: deepskyblue;
     width: 9rem;
 }
+
+@media (max-width: 768px) {
+    .imageIcon {
+        width: 200px;
+    }
+    .description {
+        width: 20rem;
+    }
+}
