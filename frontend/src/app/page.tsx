@@ -1,10 +1,18 @@
+"use client"
+
 import { BannerImage, BannerInfo } from "@/libraries/Carousel";
 import { Link } from "@nextui-org/react";
+import FsLightbox from "fslightbox-react";
+
+import { useState } from "react";
 
 export default function Home() {
+
+  const [toggler, setToggler] = useState(false);
+
   return (
     <main>
-      <BannerImage/>
+      <BannerImage />
       <section className="text-center flex relative top-32 mb-40">
         <div className="flex justify-center max-lg:flex-wrap items-center m-10">
           <div className="my-10 lg:w-1/2">
@@ -13,11 +21,25 @@ export default function Home() {
             <button className="border rounded-none bg-[#0f09a1] hover:bg-white text-white hover:text-[#0f09a1] border-[#0f09a1] transition duration-300 py-5 px-10 mt-5">Informações</button>
           </div>
           <div className="my-10 lg:w-1/2">
-            <h1 className="border p-10 text-3xl font-bold text-[#080451]">lorem</h1>
-            <p className="text-xl p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iste consequatur rem, est mollitia corrupti praesentium deserunt a blanditiis ratione eaque repudiandae voluptates dicta cum aliquam amet delectus molestias qui.</p>
-            <button className="border rounded-none bg-[#0f09a1] hover:bg-white text-white hover:text-[#0f09a1] border-[#0f09a1] transition duration-300 py-5 px-10 mt-5">
-              Informações
+            <h1 className="border p-10 text-3xl font-bold text-[#080451]">Ofertas</h1>
+            <p className="text-xl p-3">Nos ajude a manter a nossa obra, seja um doador e nos ajude a levar a obra do Senhor adiante!</p>
+            <button
+              onClick={() => setToggler(!toggler)}
+              className="border rounded-none bg-[#0f09a1] hover:bg-white text-white hover:text-[#0f09a1] border-[#0f09a1] transition duration-300 py-5 px-10 mt-5">
+              Como Ofertar
             </button>
+            <FsLightbox
+              toggler={toggler}
+              sources={[
+              <div className="w-96 text-white">
+                  <h1 className="text-4xl font-bold">Pix Escomiw:</h1>
+                  <p className="text-2xl">escomiw1re@gmail.com</p>
+                  <br />
+                  <h1 className="text-4xl font-bold">Pix da SRM:</h1>
+                  <p className="text-2xl">13.836.364/0141-08</p>
+              </div>
+            ]}
+            />
           </div>
           <div className="my-10 lg:w-1/2">
             <h1 className="border p-10 text-3xl font-bold text-[#080451]">ESCOMIW</h1>
@@ -56,7 +78,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <BannerInfo/>
+      <BannerInfo />
     </main>
   );
 }

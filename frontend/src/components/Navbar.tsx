@@ -31,10 +31,25 @@ function Navbar() {
 
     const pathname = usePathname();
 
+    const getLogoSrc = () => {
+        switch (pathname) {
+            case '/':
+                return '/srm1.png';
+            case '/sobre':
+                return '/logoESCOMIW.png';
+            case '/projetopai':
+                return '/logoPAI.png';
+            case '/escomiw':
+                return '/logoESCOMIW.png';
+            default:
+                return '/srm1.png';
+        }
+    };
+
     return (
-        <nav className={`w-screen fixed z-10 flex items-center justify-between flex-wrap bg-blue-800 px-2 transition-transform duration-300 ${isVisible ? '' : '-translate-y-full'}`}>
+        <nav className={`w-screen fixed z-10 flex items-center justify-between flex-wrap bg-blue-800 p-3 transition-transform duration-300 ${isVisible ? '' : '-translate-y-full'}`}>
             <div className="flex items-center flex-shrink-0 text-white mr-6">
-                <Image src="/srm1.png" width={176} priority height={176} alt="Logo" />
+                <Image src={getLogoSrc()} width={176} priority height={176} alt="Logo" />
             </div>
             <div className="block lg:hidden">
                 <div className={`nav-icon ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(!isOpen)}>

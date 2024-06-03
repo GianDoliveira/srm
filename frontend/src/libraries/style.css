@@ -28,11 +28,11 @@
     background-position: center;
   }
   .banner2 {
+    width: 100%;
     background-image: url('../../public/projetomobile.jpg');
-    background-position: center center;
-    background-size: cover;
+    background-position: center;
     position: relative;
-    top: 100px;
+    top: 50px;
   }
 }
 
