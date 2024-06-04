@@ -68,30 +68,6 @@ function Page() {
                     </div>
                 </section>
             </main>
-            <main className='w-full mb-10'>
-                <section className="flex justify-center items-center">
-                    <Swiper
-                        pagination={{
-                            type: 'fraction',
-                        }}
-                        navigation={{
-                            nextEl: '.swiper-button-next',
-                            prevEl: '.swiper-button-prev'
-                        }}
-                        modules={[Pagination, Navigation]}
-                        className='lg:w-1/2'
-                    >
-                        <SwiperSlide>
-                            <img src="./ESCOMIW1.JPG" alt="Equipe Missionário Regional" />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img src="./ESCOMIW2.JPG" alt="Equipe Missionário Regional" />
-                        </SwiperSlide>
-                        <div className="swiper-button-next"></div>
-                        <div className="swiper-button-prev"></div>
-                    </Swiper>
-                </section>
-            </main>
         </>
     )
 }
