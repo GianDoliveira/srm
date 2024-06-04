@@ -2,10 +2,15 @@
 .swiper-button-prev {
   background-color: rgba(0, 0, 0, 0.356);
   color: #fff;
-  padding: 10px;
   position: absolute;
-  height: 25%;
+  height: 15%;
   padding: 0 1.5rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.hideen {
+  visibility: hidden;
 }
 
 .banner1 {

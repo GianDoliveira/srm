@@ -76,14 +76,14 @@ function About() {
             <main id="sobre">
                 <section className="flex pt-56 flex-col justify-center items-center">
                     <h1 className="animate__animated animate__fadeInDown text-center text-5xl font-bold my-4 text-[#080451]">SOBRE</h1>
-                    <div className="animate__animated animate__fadeInLeft lg:w-3/4 px-20 py-5 lg:py-10 border-gray-400">
-                        <p className="py-5 max-lg:text-2xl">A Secretaria Regional de Missões é o Órgão Regional instituído para executar os planos e
+                    <div className="animate__animated animate__fadeInLeft lg:w-3/4 px-10 py-5 lg:py-10 border-gray-400">
+                        <p className="py-5 max-lg:text-xl">A Secretaria Regional de Missões é o Órgão Regional instituído para executar os planos e
                             programas missionários da igreja, sendo responsável diretamente pela expansão das Igrejas
                             Wesleyanas no campo missionário da 1ª Região, no estado do Piauí, além de contribuir com o
                             sustento missionário no campo transcultural dentro e fora do Brasil. Além do trabalho religioso e
                             evangelístico, a SRM desenvolve projetos na área social.
                         </p>
-                        <p className="py-5 max-lg:text-2xl">Temos como objetivos principais:</p>
+                        <p className="py-5 max-lg:text-xl">Temos como objetivos principais:</p>
                         <ul className="list-disc max-lg:text-2xl">
                             <li>Desenvolver, por meios ao seu alcance, o ardor missionário e evangelizador da Igreja,
                                 motivando as igrejas de cada distrito a obedecer à grande comissão, na tarefa de orar,
@@ -99,26 +99,26 @@ function About() {
                                 educacional e profissional das crianças e adolescentes atendidas pelo PAI.
                             </li>
                         </ul>
-                        <p className="py-5 max-lg:text-2xl">Para o alcance destes objetivos, nosso Programa é usar como ferramenta para viabilizar nossos
+                        <p className="py-5 max-lg:text-xl">Para o alcance destes objetivos, nosso Programa é usar como ferramenta para viabilizar nossos
                             projetos os seguintes órgãos: PAI – Programa de Apadrinhamento Infantil, ESCOMIW- Escola
                             Missionária Wesleyana e AGEMIW- Agência Missionária Wesleyana.
                         </p>
-                        <p className="py-5 max-lg:text-2xl">Graças ao envolvimento com missões, orações e contribuições financeiras das igrejas e irmãos
+                        <p className="py-5 max-lg:text-xl">Graças ao envolvimento com missões, orações e contribuições financeiras das igrejas e irmãos
                             em Cristo, contamos atualmente com 2 famílias pastorais dedicadas ao campo missionário no
                             Piauí, onde temos duas igrejas estabelecidas e outras 12 congregações e pontos de pregação
                             espalhados desde a capital até o interior do estado.
                         </p>
-                        <p className="py-5 max-lg:text-2xl">A SRM espera que a obra missionária cresça ainda mais através do aumento do número de
+                        <p className="py-5 max-lg:text-xl">A SRM espera que a obra missionária cresça ainda mais através do aumento do número de
                             intercessores, do apoio financeiro dos crentes, de novos missionários que serão enviados a
                             novos campos e de projetos que serão implementados, para que a Palavra de Deus seja
                             difundida.
                             Avançar na pregação do Evangelho até os confins da terra, levando Jesus ao coração de toda
                             criatura é a missão que a SRM compartilha com você.
                         </p>
-                        <p className="py-5 max-lg:text-2xl">Como parte da Secretaria Geral de Missões, a SRM da 1ª Região tem contribuído com o trabalho
+                        <p className="py-5 max-lg:text-xl">Como parte da Secretaria Geral de Missões, a SRM da 1ª Região tem contribuído com o trabalho
                             de Missões transculturais.
                         </p>
-                        <p className="py-5 max-lg:text-2xl">Atualmente estamos presentes nos seguintes países:</p>
+                        <p className="py-5 max-lg:text-xl">Atualmente estamos presentes nos seguintes países:</p>
                         <ul className="list-disc max-lg:text-2xl">
                             <li>Europa: Portugal, Bélgica, Suíça e Espanha.</li>
                             <li>América: Peru, Argentina, Paraguai, Uruguai, Bolívia e Estados Unidos - Nações
@@ -128,11 +128,11 @@ function About() {
                             </li>
                             <li>África: Senegal, Moçambique e Burkina-Faso</li>
                         </ul>
-                        <p className="py-5 max-lg:text-2xl">Seja parte deste grande mover que está acontecendo. Participe das ações missionárias da 1ª
+                        <p className="py-5 max-lg:text-xl">Seja parte deste grande mover que está acontecendo. Participe das ações missionárias da 1ª
                             Região. Sua contribuição, oração e participação podem impactar muitas vidas e alcançar um
                             número ainda maior de pessoas que hoje estão sem Cristo.
                         </p>
-                        <p className="py-5 max-lg:text-2xl">Seja a resposta!</p>
+                        <p className="py-5 max-lg:text-xl">Seja a resposta!</p>
                     </div>
                 </section>
             </main>

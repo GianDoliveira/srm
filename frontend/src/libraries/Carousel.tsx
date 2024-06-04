@@ -60,16 +60,16 @@ export const BannerInfo = () => {
                     disableOnInteraction: false
                 }}
                 className="mySwiper">
-                <SwiperSlide className=''>
+                <SwiperSlide className='hidden'>
                     <h1>41 etnias</h1>
                 </SwiperSlide>
-                <SwiperSlide className=''>
+                <SwiperSlide className='hidden'>
                     <h1>18 países</h1>
                 </SwiperSlide>
-                <SwiperSlide className=''>
+                <SwiperSlide className='hidden'>
                     <h1>4 continentes</h1>
                 </SwiperSlide>
-                <SwiperSlide className=''>
+                <SwiperSlide className='hidden'>
                     <h1>2 brasil</h1>
                 </SwiperSlide>
             </Swiper>

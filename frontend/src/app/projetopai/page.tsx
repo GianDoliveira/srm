@@ -18,33 +18,33 @@ function ProjetoPai() {
             <main>
                 <section id="projetopai" className="flex pt-56 flex-col justify-center items-center">
                     <h1 className="animate__animated animate__fadeInDown text-center text-4xl font-bold my-4 text-[#080451]">PAI - PROGRAMA DE APADRINHAMENTO INFANTIL</h1>
-                    <div className="animate__animated animate__fadeInLeft lg:w-3/4 px-20 py-5 lg:py-10 border-gray-400">
-                        <p className="font-bold max-lg:text-2xl">Objetivo Geral</p>
-                        <p className="py-5 max-lg:text-2xl">Oferecer às crianças e aos adolescentes no Piauí ações para propiciar e garantir a
+                    <div className="animate__animated animate__fadeInLeft lg:w-3/4 px-10 py-5 lg:py-10 border-gray-400">
+                        <p className="font-bold max-lg:text-xl">Objetivo Geral</p>
+                        <p className="py-5 max-lg:text-xl">Oferecer às crianças e aos adolescentes no Piauí ações para propiciar e garantir a
                             convivência e o fortalecimento dos vínculos familiares e comunitários, através da troca de
                             diversas experiências, do acesso a atividades educacionais, lúdicos pedagógicas,
                             culturais, musicais, espirituais e encaminhamentos para o serviço psicossocial.
                         </p>
-                        <p className="py-5 max-lg:text-2xl">Trata-se de um programa de apadrinhamento infantil que ocorre na Igreja Metodista
+                        <p className="py-5 max-lg:text-xl">Trata-se de um programa de apadrinhamento infantil que ocorre na Igreja Metodista
                             Wesleyana em Amarante-PI, Teresina-PI e em bairros adjacentes.</p>
-                        <p className="py-5 max-lg:text-2xl">O Projeto tem como alvo crianças e adolescentes de ambos os sexos, de 3 a 12 anos e
+                        <p className="py-5 max-lg:text-xl">O Projeto tem como alvo crianças e adolescentes de ambos os sexos, de 3 a 12 anos e
                             adolescentes de 13 a 17 anos, pertencentes aos diversos povoados carentes do Piauí,
                             como povoado de Salobro e Buritizinho.
                         </p>
-                        <p className="font-bold max-lg:text-2xl">Serviços</p>
-                        <p className="py-5 max-lg:text-2xl">As atividades acontecem todos os sábados de 09h às 17h. As crianças fazem 3 refeições
+                        <p className="font-bold max-lg:text-xl">Serviços</p>
+                        <p className="py-5 max-lg:text-xl">As atividades acontecem todos os sábados de 09h às 17h. As crianças fazem 3 refeições
                             durante o dia o café, almoço e lanche da tarde. Durante o dia participam de oficinas de
                             alfabetização, instrumento, culinária entre outras.
                         </p>
-                        <p className="font-bold max-lg:text-2xl">Desafios</p>
-                        <p className="py-5 max-lg:text-2xl">
+                        <p className="font-bold max-lg:text-xl">Desafios</p>
+                        <p className="py-5 max-lg:text-xl">
                             Atualmente em Buritizinho e Salobro só está acontecendo as oficinas de Reforço escolar,
                             Pedagógica Lúdica e recreação. Estamos buscando parceiros para doação de
                             instrumentos musicais, material de artesanato e brinquedos para recreação e material
                             pedagógico para iniciar as oficinas.
                         </p>
-                        <p className="font-bold max-lg:text-2xl">Contribuições</p>
-                        <p className="py-5 max-lg:text-2xl">
+                        <p className="font-bold max-lg:text-xl">Contribuições</p>
+                        <p className="py-5 max-lg:text-xl">
                             Com ofertas mensais a partir de R$ 20,00 você apadrinha uma criança neste lindo projeto. <br />
                             Seja um mantenedor. <br />
                             Para depósitos bancários: <br />
@@ -63,14 +63,14 @@ function ProjetoPai() {
                         <h1 className="animate__animated animate__fadeInDown text-center text-4xl font-bold my-4 text-[#080451]">PROJETO PAI – COMO TUDO COMEÇOU?</h1>
                         <div className="max-lg:p-5 flex justify-center">
                             <FadeInDown>
-                                <p className="max-lg:text-2xl">Para conhecer melhor como tudo começou, nada melhor que buscar saber e conhecer de quem esteve
+                                <p className="max-lg:text-xl">Para conhecer melhor como tudo começou, nada melhor que buscar saber e conhecer de quem esteve
                                     no Campo Missionário na implantação do Projeto PAI.
                                 </p>
-                                <p className="py-2 max-lg:text-2xl">Entrevistamos o pastor Wilson Pacheco, que pastoreou a IMW Amarante entre os anos de 2013 a 2018, e
+                                <p className="py-2 max-lg:text-xl">Entrevistamos o pastor Wilson Pacheco, que pastoreou a IMW Amarante entre os anos de 2013 a 2018, e
                                     deu o pontapé inicial deste lindo Programa voltado para as crianças.
 
                                 </p>
-                                <p className="max-lg:text-2xl">Vamos ao resultado deste bate-papo!</p>
+                                <p className="max-lg:text-xl">Vamos ao resultado deste bate-papo!</p>
                             </FadeInDown>
                         </div>
                         <div className="lg:px-20">
