@@ -50,6 +50,7 @@ body {
 
 @media (max-width: 768px) {
     .mySwiperPai .swiper-slide img {
-        width: 300px;
+        width: 600px;
+        height: 300px;
     }
 }
