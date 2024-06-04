@@ -1,5 +1,6 @@
 "use client"
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -85,10 +86,10 @@ function Page() {
                         className='lg:w-1/2'
                     >
                         <SwiperSlide>
-                            <img src="./ESCOMIW1.JPG" alt="Equipe Missionário Regional" />
+                            <Image src="./ESCOMIW1.JPG" alt="Equipe Missionário Regional" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="./ESCOMIW2.JPG" alt="Equipe Missionário Regional" />
+                            <Image src="./ESCOMIW2.JPG" alt="Equipe Missionário Regional" />
                         </SwiperSlide>
                         <div className="swiper-button-next"></div>
                         <div className="swiper-button-prev"></div>

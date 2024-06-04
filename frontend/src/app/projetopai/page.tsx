@@ -10,6 +10,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
 import { EffectCoverflow, Pagination } from 'swiper/modules';
+import img from "next/image";
 
 function ProjetoPai() {
     return (
@@ -192,49 +193,49 @@ function ProjetoPai() {
                     className="mySwiperPai"
                 >
                     <SwiperSlide>
-                        <img src="./projetopai1.jpg" />
+                        <img alt="fotos do projeto" src="./projetopai1.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai2.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai2.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai3.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai3.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai4.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai4.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai5.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai5.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai6.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai6.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai7.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai7.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai8.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai8.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai9.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai9.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai10.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai10.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai11.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai11.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai12.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai12.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai13.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai13.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai14.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai14.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./projetopai15.jpg" />
+                        <img alt="fotos do projeto" src="/projetopai15.jpg" />
                     </SwiperSlide>
                 </Swiper>
             </section>
