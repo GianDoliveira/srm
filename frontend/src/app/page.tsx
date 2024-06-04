@@ -7,8 +7,23 @@ import FsLightbox from "fslightbox-react";
 import { useState } from "react";
 
 export default function Home() {
-
   const [toggler, setToggler] = useState(false);
+
+  const sources = [
+    {
+      key: 'unique-key-1',
+      content: (
+        <div className="w-96 text-white">
+          <h1 className="text-4xl font-bold">Pix Escomiw:</h1>
+          <p className="text-2xl">escomiw1re@gmail.com</p>
+          <br />
+          <h1 className="text-4xl font-bold">Pix da SRM:</h1>
+          <p className="text-2xl">13.836.364/0141-08</p>
+        </div>
+      ),
+    },
+    // Adicione mais fontes conforme necessário
+  ];
 
   return (
     <main>
@@ -30,15 +45,9 @@ export default function Home() {
             </button>
             <FsLightbox
               toggler={toggler}
-              sources={[
-              <div className="w-96 text-white">
-                  <h1 className="text-4xl font-bold">Pix Escomiw:</h1>
-                  <p className="text-2xl">escomiw1re@gmail.com</p>
-                  <br />
-                  <h1 className="text-4xl font-bold">Pix da SRM:</h1>
-                  <p className="text-2xl">13.836.364/0141-08</p>
-              </div>
-            ]}
+              sources={sources.map(source => (
+                <div key={source.key}>{source.content}</div>
+              ))}
             />
           </div>
           <div className="my-10 lg:w-1/2">

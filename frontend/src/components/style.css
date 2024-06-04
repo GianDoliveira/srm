@@ -7,6 +7,11 @@
   cursor: pointer;
 }
 
+.nav-sobre {
+  width: 60px;
+  height: 40px;
+}
+
 .nav-icon span {
   display: block;
   position: absolute;
@@ -64,6 +69,6 @@
 }
 
 .active { 
-  color: orange;
+  color: blue;
   font-size: large;
 }

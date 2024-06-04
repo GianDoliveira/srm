@@ -48,3 +48,9 @@ body {
     position: relative;
     top: 50px;
 }
+
+@media (max-width: 768px) {
+    .mySwiperPai .swiper-slide img {
+        width: 600px;
+    }
+}
