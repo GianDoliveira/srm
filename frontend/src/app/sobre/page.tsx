@@ -73,12 +73,27 @@ function About() {
                     <h1 className='animate__animated animate__fadeInDown text-center max-md:text-3xl lg:text-5xl font-bold my-4 text-[#080451]'>
                         Conselho Missionário Regional - SRM - 1° RE
                     </h1>
-                    <Image
-                        src="/time da srm.JPG"
+                    <div className='flex max-md:flex-col'>
+                        <img
+                            src='./timedasrm1.jpg'
+                            className='team'
+                            alt='conselho missionário regional'
+                        />
+                        <img
+                            src='./timedasrm2.JPG'
+                            className='team'
+                            alt='conselho missionário regional'
+                        />
+                        <img
+                            src='./timedasrm3.JPG'
+                            className='max-md:hidden '
+                            alt='conselho missionário regional'
+                        />
+                    </div>
+                    <img
+                        src='./timedasrm3.JPG'
+                        className='md:hidden'
                         alt='conselho missionário regional'
-                        width={1400}
-                        height={1080}
-                        sizes="(max-width: 768px) 100vw"
                     />
                 </section>
             </main>
