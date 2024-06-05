@@ -3,14 +3,14 @@
   background-color: rgba(0, 0, 0, 0.356);
   color: #fff;
   position: absolute;
-  height: 15%;
-  padding: 0 1.5rem;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 2px solid black;
 }
 
-.swiper-button-next,
-.swiper-button-prev,
-.hideen {
-  visibility: hidden;
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 20px;
 }
 
 .banner1 {
@@ -19,6 +19,7 @@
   background-position: center;
   background-size: cover;
 }
+
 .banner2 {
   width: 100%;
   background-image: url('../../public/bannerpai.jpg');
@@ -32,6 +33,7 @@
     background-size: cover;
     background-position: center;
   }
+
   .banner2 {
     width: 100%;
     background-image: url('../../public/projetomobile.jpg');

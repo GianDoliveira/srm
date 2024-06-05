@@ -36,7 +36,7 @@ function Navbar() {
             case '/':
                 return '/srm1.png';
             case '/sobre':
-                return '/logoESCOMIW.png';
+                return '/srm1.png';
             case '/projetopai':
                 return '/logoPAI.png';
             case '/escomiw':
