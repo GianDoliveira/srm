@@ -45,34 +45,34 @@ export const BannerImage = () => {
         </div>
     )
 };
-export const BannerInfo = () => {
-    return (
-        <section className='text-center lg:h-96 my-10'>
-            <h1 className='text-4xl py-10 font-bold text-[#080451]'>DADOS</h1>
-            <Swiper
-                navigation={true}
-                pagination={{
-                    clickable: true,
-                }}
-                modules={[Navigation, Pagination, Autoplay]}
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false
-                }}
-                className="mySwiper">
-                <SwiperSlide>
-                    <h1>41 etnias</h1>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <h1>18 países</h1>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <h1>4 continentes</h1>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <h1>2 brasil</h1>
-                </SwiperSlide>
-            </Swiper>
-        </section>
-    )
-}
+// export const BannerInfo = () => {
+//     return (
+//         <section className='text-center lg:h-96 my-10'>
+//             <h1 className='text-4xl py-10 font-bold text-[#080451]'>DADOS</h1>
+//             <Swiper
+//                 navigation={true}
+//                 pagination={{
+//                     clickable: true,
+//                 }}
+//                 modules={[Navigation, Pagination, Autoplay]}
+//                 autoplay={{
+//                     delay: 2500,
+//                     disableOnInteraction: false
+//                 }}
+//                 className="mySwiper">
+//                 <SwiperSlide>
+//                     <h1>41 etnias</h1>
+//                 </SwiperSlide>
+//                 <SwiperSlide>
+//                     <h1>18 países</h1>
+//                 </SwiperSlide>
+//                 <SwiperSlide>
+//                     <h1>4 continentes</h1>
+//                 </SwiperSlide>
+//                 <SwiperSlide>
+//                     <h1>2 brasil</h1>
+//                 </SwiperSlide>
+//             </Swiper>
+//         </section>
+//     )
+// }

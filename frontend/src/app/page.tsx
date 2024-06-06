@@ -1,6 +1,6 @@
 "use client"
 
-import { BannerImage, BannerInfo } from "@/libraries/Carousel";
+import { BannerImage} from "@/libraries/Carousel";
 import { Link } from "@nextui-org/react";
 import FsLightbox from "fslightbox-react";
 
@@ -87,7 +87,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <BannerInfo />
     </main>
   );
 }
