@@ -1,6 +1,6 @@
 "use client"
 
-import { BannerImage} from "@/libraries/Carousel";
+import { BannerImage, BannerInfo } from "@/libraries/Carousel";
 import { Link } from "@nextui-org/react";
 import FsLightbox from "fslightbox-react";
 
@@ -26,9 +26,9 @@ export default function Home() {
   ];
 
   return (
-    <main>
+    <>
       <BannerImage />
-      <section className="text-center flex relative top-32 mb-40">
+      <main className="text-center flex relative top-32 mb-40">
         <div className="flex justify-center max-lg:flex-wrap items-center m-10">
           <div className="my-10 lg:w-1/2">
             <h1 className="border p-10 text-3xl font-bold text-[#080451]">CURSOS</h1>
@@ -58,8 +58,8 @@ export default function Home() {
             </button>
           </div>
         </div>
-      </section>
-      <section className="text-white">
+      </main>
+      <main className="text-white">
         <div className="bg-[url('https://wallpapercave.com/wp/wp7075534.jpg')] bg-center">
           <div className="flex items-center justify-center bg-blue-900 bg-opacity-60">
             <div className="text-center p-20">
@@ -86,7 +86,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </main>
+      <main className="h-full">
+        <BannerInfo />
+      </main>
+    </>
   );
 }

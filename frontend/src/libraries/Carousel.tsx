@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 
 import './style.css';
 
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper/modules';
 
 export const BannerImage = () => {
     return (
@@ -45,34 +45,67 @@ export const BannerImage = () => {
         </div>
     )
 };
-// export const BannerInfo = () => {
-//     return (
-//         <section className='text-center lg:h-96 my-10'>
-//             <h1 className='text-4xl py-10 font-bold text-[#080451]'>DADOS</h1>
-//             <Swiper
-//                 navigation={true}
-//                 pagination={{
-//                     clickable: true,
-//                 }}
-//                 modules={[Navigation, Pagination, Autoplay]}
-//                 autoplay={{
-//                     delay: 2500,
-//                     disableOnInteraction: false
-//                 }}
-//                 className="mySwiper">
-//                 <SwiperSlide>
-//                     <h1>41 etnias</h1>
-//                 </SwiperSlide>
-//                 <SwiperSlide>
-//                     <h1>18 países</h1>
-//                 </SwiperSlide>
-//                 <SwiperSlide>
-//                     <h1>4 continentes</h1>
-//                 </SwiperSlide>
-//                 <SwiperSlide>
-//                     <h1>2 brasil</h1>
-//                 </SwiperSlide>
-//             </Swiper>
-//         </section>
-//     )
-// }
+export const BannerInfo = () => {
+    return (
+        <section className='text-center my-10'>
+            <h1 className='text-4xl py-10 font-bold text-[#080451]'>TRABALHOS ESCOMIW</h1>
+            <Swiper
+                spaceBetween={30}
+                centeredSlides={true}
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false
+                }}
+                pagination={{
+                    clickable: true
+                }}
+                navigation={true}
+                modules={[Navigation, Autoplay, Pagination]}
+                className="mySwiper"
+            >
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal1.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal2.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal3.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal4.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal5.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal6.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal7.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal8.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal9.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal10.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal11.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal12.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal13.jpg" />
+                </SwiperSlide>
+                <SwiperSlide className='image-container'>
+                    <img src="./abaprincipal14.jpg" />
+                </SwiperSlide>
+            </Swiper>
+        </section>
+    )
+}
