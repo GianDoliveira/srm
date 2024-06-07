@@ -1,5 +1,4 @@
 import 'animate.css';
-import Image from 'next/image';
 
 function About() {
     return (

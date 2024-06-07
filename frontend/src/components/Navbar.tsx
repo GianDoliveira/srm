@@ -41,6 +41,8 @@ function Navbar() {
                 return '/logoPAI.png';
             case '/escomiw':
                 return '/logoESCOMIW.png';
+            case '/campomissionario':
+                return '/logoESCOMIW.png';
             default:
                 return '/srm1.png';
         }
@@ -71,6 +73,9 @@ function Navbar() {
                     </li>
                     <li className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-800 mr-4">
                         <Link className={`link ${pathname === '/escomiw' ? 'active' : ''}`} href="/escomiw">ESCOMIW</Link>
+                    </li>
+                    <li className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-800 mr-4">
+                        <Link className={`link ${pathname === '/campomissionario' ? 'active' : ''}`} href="/campomissionario">CAMPO MISSIONÁRIO</Link>
                     </li>
                 </ul>
             </div>
