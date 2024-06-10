@@ -3,7 +3,7 @@ import 'animate.css';
 function About() {
     return (
         <>
-            <title>Sobre nós</title>
+            <title>SRM | Sobre nós</title>
             <main id="sobre">
                 <section className="flex pt-56 flex-col justify-center items-center">
                     <h1 className="animate__animated animate__fadeInDown text-center text-5xl font-bold my-4 text-[#080451]">SOBRE</h1>

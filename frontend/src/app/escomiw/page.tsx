@@ -74,7 +74,7 @@ const membros = [
 function Page() {
     return (
         <>
-            <title>ESCOMIW</title>
+            <title>SRM | ESCOMIW</title>
             <main>
                 <section className="flex pt-56 flex-col justify-center items-center">
                     <h1 className="animate__animated animate__fadeInDown text-center text-5xl font-bold my-4 text-[#080451]">HISTÓRICO ESCOMIW</h1>

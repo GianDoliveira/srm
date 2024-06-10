@@ -15,6 +15,7 @@ import img from "next/image";
 function ProjetoPai() {
     return (
         <>
+        <title>SRM | Projeto PAI</title>
             <main>
                 <section id="projetopai" className="flex pt-56 flex-col justify-center items-center">
                     <h1 className="animate__animated animate__fadeInDown text-center text-4xl font-bold my-4 text-[#080451]">PAI - PROGRAMA DE APADRINHAMENTO INFANTIL</h1>
