@@ -15,14 +15,14 @@
 
 .banner1 {
   width: 100%;
-  background-image: url('../../public/cursocap.jpg');
+  background-image: url('../../public/banner/cursocap.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .banner2 {
   width: 100%;
-  background-image: url('../../public/bannerpai.jpg');
+  background-image: url('../../public/banner/bannerpai.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -56,14 +56,14 @@
 
 @media (max-width: 768px) {
   .banner1 {
-    background-image: url('../../public/cursocapmobile.jpg');
+    background-image: url('../../public/banner/cursocapmobile.jpg');
     background-size: cover;
     background-position: center;
   }
 
   .banner2 {
     width: 100%;
-    background-image: url('../../public/projetomobile.jpg');
+    background-image: url('../../public/banner/projetomobile.jpg');
     background-position: center;
     position: relative;
     top: 50px;

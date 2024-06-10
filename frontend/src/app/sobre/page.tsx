@@ -74,23 +74,23 @@ function About() {
                     </h1>
                     <div className='flex max-md:flex-col'>
                         <img
-                            src='./timedasrm1.jpg'
+                            src='./phototime/timedasrm1.jpg'
                             className='team'
                             alt='conselho missionário regional'
                         />
                         <img
-                            src='./timedasrm2.JPG'
+                            src='./phototime/timedasrm2.JPG'
                             className='team'
                             alt='conselho missionário regional'
                         />
                         <img
-                            src='./timedasrm3.JPG'
+                            src='./phototime/timedasrm3.JPG'
                             className='max-md:hidden '
                             alt='conselho missionário regional'
                         />
                     </div>
                     <img
-                        src='./timedasrm3.JPG'
+                        src='./phototime/timedasrm3.JPG'
                         className='md:hidden'
                         alt='conselho missionário regional'
                     />

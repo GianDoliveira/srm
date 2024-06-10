@@ -64,46 +64,46 @@ export const BannerInfo = () => {
                 className="mySwiper"
             >
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal1.jpg" />
+                    <img src="./principal/abaprincipal1.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal2.jpg" />
+                    <img src="./principal/abaprincipal2.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal3.jpg" />
+                    <img src="./principal/abaprincipal3.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal4.jpg" />
+                    <img src="./principal/abaprincipal4.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal5.jpg" />
+                    <img src="./principal/abaprincipal5.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal6.jpg" />
+                    <img src="./principal/abaprincipal6.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal7.jpg" />
+                    <img src="./principal/abaprincipal7.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal8.jpg" />
+                    <img src="./principal/abaprincipal8.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal9.jpg" />
+                    <img src="./principal/abaprincipal9.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal10.jpg" />
+                    <img src="./principal/abaprincipal10.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal11.jpg" />
+                    <img src="./principal/abaprincipal11.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal12.jpg" />
+                    <img src="./principal/abaprincipal12.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal13.jpg" />
+                    <img src="./principal/abaprincipal13.jpg" />
                 </SwiperSlide>
                 <SwiperSlide className='image-container'>
-                    <img src="./abaprincipal14.jpg" />
+                    <img src="./principal/abaprincipal14.jpg" />
                 </SwiperSlide>
             </Swiper>
         </section>

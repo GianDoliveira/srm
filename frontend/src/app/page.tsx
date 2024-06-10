@@ -27,6 +27,7 @@ export default function Home() {
 
   return (
     <>
+    <link rel="icon" href="./favicon.ico" sizes="32x32" />
       <BannerImage />
       <main className="text-center flex relative top-32 mb-40">
         <div className="flex justify-center max-lg:flex-wrap items-center m-10">

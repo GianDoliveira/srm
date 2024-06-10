@@ -193,49 +193,49 @@ function ProjetoPai() {
                     className="mySwiperPai"
                 >
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="./projetopai1.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai1.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai2.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai2.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai3.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai3.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai4.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai4.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai5.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai5.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai6.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai6.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai7.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai7.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai8.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai8.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai9.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai9.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai10.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai10.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai11.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai11.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai12.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai12.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai13.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai13.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai14.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai14.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img alt="fotos do projeto" src="/projetopai15.jpg" />
+                        <img alt="fotos do projeto" src="/pai/projetopai15.jpg" />
                     </SwiperSlide>
                 </Swiper>
             </section>
