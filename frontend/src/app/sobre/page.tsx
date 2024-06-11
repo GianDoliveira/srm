@@ -15,7 +15,7 @@ function About() {
                             evangelístico, a SRM desenvolve projetos na área social.
                         </p>
                         <p className="py-5 max-lg:text-xl">Temos como objetivos principais:</p>
-                        <ul className="list-disc max-lg:text-2xl">
+                        <ul className="list-disc max-lg:text-xl">
                             <li>Desenvolver, por meios ao seu alcance, o ardor missionário e evangelizador da Igreja,
                                 motivando as igrejas de cada distrito a obedecer à grande comissão, na tarefa de orar,
                                 evangelizar e contribuir;
@@ -50,7 +50,7 @@ function About() {
                             de Missões transculturais.
                         </p>
                         <p className="py-5 max-lg:text-xl">Atualmente estamos presentes nos seguintes países:</p>
-                        <ul className="list-disc max-lg:text-2xl">
+                        <ul className="list-disc max-lg:text-xl">
                             <li>Europa: Portugal, Bélgica, Suíça e Espanha.</li>
                             <li>América: Peru, Argentina, Paraguai, Uruguai, Bolívia e Estados Unidos - Nações
                                 Indígenas no Brasil: (Ttikunas, Sateré-Mawé, Sanumá, Matis e Pataxós)
