@@ -15,6 +15,7 @@ function Footer() {
                     <p>Email: escomiw1re@gmail.com</p>
                     <p>Coordenação (21) 975604800 - Elison Ferreira</p>
                     <p>Tesouraria (21)  96927-8903 - Missionária Wancylane</p>
+                    <p>Secretaria (24) 98188-7272 - Missionária Lindinalva</p>
                 </div>
                 <div>
                     <Image 

@@ -10,7 +10,7 @@
 
 .description { 
     width: 30rem;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 .button {
@@ -26,6 +26,6 @@
         width: 200px;
     }
     .description {
-        width: 20rem;
+        width: 25rem;
     }
 }
