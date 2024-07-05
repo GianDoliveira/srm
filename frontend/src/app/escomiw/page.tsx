@@ -134,19 +134,19 @@ function Page() {
                 </section>
             </main>
             <main className="mb-10 flex flex-col">
-                <FadeInDown>
                 <h1 className="text-center text-5xl font-bold mb-10 text-[#080451]">NOSSA EQUIPE</h1>
-                    <div className="grid md:grid-cols-2 xl:grid-cols-3  gap-3 justify-center items-center">
-                        {membros.map((membro, index) => (
+                <div className="grid md:grid-cols-2 xl:grid-cols-3  gap-3 justify-center items-center">
+                    {membros.map((membro, index) => (
+                        <FadeInDown>
                             <Team
                                 key={index}
                                 imagem={membro.imagem}
                                 nome={membro.nome}
                                 descricaoLongo={membro.descricaoLongo}
                             />
-                        ))}
-                    </div>
-                </FadeInDown>
+                        </FadeInDown>
+                    ))}
+                </div>
             </main>
         </>
     )
