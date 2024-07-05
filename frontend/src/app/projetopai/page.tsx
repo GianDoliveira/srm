@@ -15,7 +15,7 @@ import img from "next/image";
 function ProjetoPai() {
     return (
         <>
-        <title>SRM | Projeto PAI</title>
+            <title>SRM | Projeto PAI</title>
             <main>
                 <section id="projetopai" className="flex pt-56 flex-col justify-center items-center">
                     <h1 className="animate__animated animate__fadeInDown text-center text-4xl font-bold my-4 text-[#080451]">PAI - PROGRAMA DE APADRINHAMENTO INFANTIL</h1>
@@ -53,7 +53,7 @@ function ProjetoPai() {
                             Banco Bradesco <br />
                             Agência: 4226 <br />
                             Conta Corrente: 130030579 <br />
-                            PIX: 13.836.364/0141-0 <br />
+                            PIX: 13.836.364/0141-08 <br />
                         </p>
                     </div>
                 </section>
