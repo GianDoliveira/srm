@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 
 import './style.css';
 
-import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export const BannerImage = () => {
     return (
