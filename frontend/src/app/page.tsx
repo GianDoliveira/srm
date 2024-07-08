@@ -1,8 +1,10 @@
 "use client"
 
 import { BannerImage, BannerInfo } from "@/libraries/Carousel";
+import { FadeInDown } from "@/libraries/ScrollAnimation";
 import { Link } from "@nextui-org/react";
 import FsLightbox from "fslightbox-react";
+import Image from "next/image";
 
 import { useState } from "react";
 
@@ -84,11 +86,15 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <main className="h-full">
+      <main className="h-full mt-10">
         <section className="flex flex-col justify-center items-center">
-          <div className="flex flex-col">
-            <h1 className="animate__animated animate__fadeInDown text-center text-4xl font-bold my-4 text-[#080451]">NOTÍCIAS EM GERAL</h1>
-          </div>
+          <FadeInDown>
+            <div className="flex flex-col justify-center bg-[#f9f9f9] p-5 rounded-lg">
+              <h1 className="text-center text-4xl font-bold m-4 text-[#080451]">NOTÍCIAS EM GERAL</h1>
+              <p>Confira as atualizações!</p>
+              <Link className="text-blue-600 no-underline" href="/portal">Ir para Notícias</Link>
+            </div>
+          </FadeInDown>
         </section>
       </main>
       <main className="h-full">
