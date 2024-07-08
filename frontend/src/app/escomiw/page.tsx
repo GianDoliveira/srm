@@ -16,7 +16,7 @@ const membros = [
     {
         imagem: './phototime/photobio2.png',
         nome: 'Fábio Souza',
-        descricaoLongo: 'Membro da IMW Pilar, Formado em Capelania hospitalar e escolar. É atuante com o Start Kids em sua igreja local. Na Escomiw, a sua palestra é sobre "Censo religioso" onde apresenta técnicas e ferramentas para uma análise prévia da localidade a ser evangelizada. Levando sempre seu formidável e fervoroso serviço ao evangelho!'
+        descricaoLongo: 'Membro da IMW Pilar, formado em Capelania hospitalar e escolar é atuante com o Start Kids em sua igreja local. Na Escomiw, a sua palestra é sobre "Censo religioso" onde apresenta técnicas e ferramentas para uma análise prévia da localidade a ser evangelizada. Levando sempre seu formidável e fervoroso serviço ao evangelho!'
     },
     {
         imagem: './phototime/photobio3.png',
