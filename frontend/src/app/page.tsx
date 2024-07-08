@@ -86,7 +86,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <main className="h-full mt-10">
+      <main className="mt-10">
         <section className="flex flex-col justify-center items-center">
           <FadeInDown>
             <div className="flex flex-col justify-center bg-[#f9f9f9] p-5 rounded-lg">
