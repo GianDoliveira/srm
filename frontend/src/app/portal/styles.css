@@ -12,3 +12,14 @@
 .mySwiper {
     width: 50%;
 }
+
+@media (max-width: 748px) {
+    .mySwiper {
+        width: 100%;
+    }
+
+    .swiper-slide {
+        width: 300px;
+        height: 300px;
+    }
+}

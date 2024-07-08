@@ -89,9 +89,9 @@ export default function Home() {
       <main className="mt-10">
         <section className="flex flex-col justify-center items-center">
           <FadeInDown>
-            <div className="flex flex-col justify-center bg-[#f9f9f9] p-5 rounded-lg">
+            <div className="flex flex-col justify-center bg-[#EAB308] p-5 rounded-lg">
               <h1 className="text-center text-4xl font-bold m-4 text-[#080451]">NOTÍCIAS EM GERAL</h1>
-              <p>Confira as atualizações!</p>
+              <p className="text-lg">Confira as atualizações!</p>
               <Link className="text-blue-600 no-underline" href="/portal">Ir para Notícias</Link>
             </div>
           </FadeInDown>
