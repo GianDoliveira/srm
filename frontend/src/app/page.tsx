@@ -1,8 +1,10 @@
 "use client"
 
 import { BannerImage, BannerInfo } from "@/libraries/Carousel";
+import { FadeInDown } from "@/libraries/ScrollAnimation";
 import { Link } from "@nextui-org/react";
 import FsLightbox from "fslightbox-react";
+import Image from "next/image";
 
 import { useState } from "react";
 
@@ -22,12 +24,11 @@ export default function Home() {
         </div>
       ),
     },
-    // Adicione mais fontes conforme necessário
   ];
 
   return (
     <>
-    <link rel="icon" href="./favicon.ico" sizes="32x32" />
+      <link rel="icon" href="./favicon.ico" sizes="32x32" />
       <BannerImage />
       <main className="text-center flex relative top-32 mb-40">
         <div className="flex justify-center max-lg:flex-wrap items-center m-10">
@@ -66,10 +67,7 @@ export default function Home() {
             <div className="text-center p-20">
               <h1 className="text-3xl font-bold m-3">SOBRE</h1>
               <div className="text-justify lg:px-20">
-                <p>A Secretaria Geral de Missões é um órgão da Igreja Metodista Wesleyana,
-                  instituído para executar os planos e programas da igreja,
-                  visando à salvação dos pecadores, a glorificação do Senhor Jesus Cristo
-                  e a expansão do Reino de Deus.
+                <p>A Secretaria Regional de Missões é o Órgão Regional instituído para executar os planos e programas missionários da igreja, sendo responsável diretamente pela expansão das Igrejas Wesleyanas no campo missionário da 1ª Região, no estado do Piauí, além de contribuir com o sustento missionário no campo transcultural dentro e fora do Brasil. Além do trabalho religioso e evangelístico, a SRM desenvolve projetos na área social.
                 </p>
                 <br />
                 <div className="">
@@ -87,6 +85,17 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </main>
+      <main className="h-full mt-10">
+        <section className="flex flex-col justify-center items-center">
+          <FadeInDown>
+            <div className="flex flex-col justify-center bg-[#f9f9f9] p-5 rounded-lg">
+              <h1 className="text-center text-4xl font-bold m-4 text-[#080451]">NOTÍCIAS EM GERAL</h1>
+              <p>Confira as atualizações!</p>
+              <Link className="text-blue-600 no-underline" href="/portal">Ir para Notícias</Link>
+            </div>
+          </FadeInDown>
+        </section>
       </main>
       <main className="h-full">
         <BannerInfo />
