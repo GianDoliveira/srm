@@ -86,7 +86,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      {/* <main className="h-full mt-10">
+      <main className="mt-10">
         <section className="flex flex-col justify-center items-center">
           <FadeInDown>
             <div className="flex flex-col justify-center bg-[#EAB308] p-5 rounded-lg">
@@ -96,7 +96,7 @@ export default function Home() {
             </div>
           </FadeInDown>
         </section>
-      </main> */}
+      </main>
       <main className="h-full">
         <BannerInfo />
       </main>
