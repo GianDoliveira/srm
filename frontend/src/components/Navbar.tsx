@@ -11,7 +11,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const [isVisible, setIsVisible] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     const handleScroll = () => {
         const currentScrollY = window.scrollY;
@@ -51,9 +51,9 @@ function Navbar() {
         }
     };
 
-    const toggleDropdown = () => {
-        setIsDropdownOpen(!isDropdownOpen);
-    };
+    // const toggleDropdown = () => {
+    //     setIsDropdownOpen(!isDropdownOpen);
+    // };
 
     return (
         <nav className={`w-screen fixed z-10 flex items-center justify-between flex-wrap bg-yellow-500 p-3 transition-transform duration-300 ${isVisible ? '' : '-translate-y-full'}`}>
@@ -82,7 +82,7 @@ function Navbar() {
                         <Link className={`link ${pathname === '/escomiw' ? 'active' : ''}`} href="/escomiw">ESCOMIW</Link>
                     </li>
                 </ul>
-                <div className="relative inline-block justify-end text-end lg:mr-5 lg:text-left">
+                {/* <div className="relative inline-block justify-end text-end lg:mr-5 lg:text-left">
                     <div>
                         <button type="button" className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50" id="menu-button" aria-expanded={isDropdownOpen} aria-haspopup="true" onClick={toggleDropdown}>
                             Mais Opções
@@ -104,7 +104,7 @@ function Navbar() {
                             </div>
                         </div>
                     )}
-                </div>
+                </div> */}
             </div>
         </nav>
     );
