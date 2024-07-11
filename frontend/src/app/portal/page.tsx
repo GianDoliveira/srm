@@ -1,65 +1,43 @@
 "use client"
 
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
-import 'animate.css';
+import Link from 'next/link';
 
-import "./styles.css";
-import Image from 'next/image';
+const newsItems = [
+    {
+        title: "Consagração de pastores",
+        image: "/consagracao/IMG_1924.JPG",
+        description: "No último domingo de junho, dia 30 de junho, a IMW Central de Mantiquira celebrou e consagrou...",
+        link: "/portal/news/consg"
+    },
+    {
+        title: "Feira Missionária",
+        image: "/feira/IMG_2488.jpg",
+        description: "No sábado, dia 06/07, foi realizada uma feira missionária com o objetivo de arrecadar...",
+        link: "/portal/news/feira"
+    }
+]
 
 function Portal() {
     return (
-        <>
-            <title>SRM | Notícias</title>
-            <main className='mb-16'>
-                <section className="pt-56">
-                    <div className='flex flex-col justify-center items-center'>
-                        <h1 className="animate__animated animate__fadeInDown text-center text-5xl font-bold my-4 text-[#080451]">Notícias</h1>
-                        <div className="animate__animated animate__fadeInLeft px-10 py-5 lg:py-10 border-gray-400">
-                            <p className='text-lg'><b>Consagração de pastores</b> para irem para o campo missionário, ambos com suas famílias: um com destino ao Piauí e outro para Teresina!</p>
+        <main className='mb-16 pt-56'>
+            <div className="container mx-auto px-4">
+                <h1 className="text-3xl font-bold mb-6">Notícias</h1>
+                <div className="grid md:grid-cols-2 gap-6">
+                    {newsItems.map((news, index) => (
+                        <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <img src={news.image} alt={news.title} className="w-full h-52 object-cover" />
+                            <div className="p-6">
+                                <h2 className="text-xl font-semibold mb-2">{news.title}</h2>
+                                <p className="text-gray-700 mb-4">{news.description}</p>
+                                <Link href={news.link} className="text-blue-500 hover:underline">Ver mais</Link>
+                            </div>
                         </div>
-                    </div>
-                    <section>
-                        <Swiper
-                            pagination={{
-                                dynamicBullets: true,
-                            }}
-                            modules={[Pagination]}
-                            className="mySwiper"
-                        >
-                            <SwiperSlide>
-                                <img src="/consagracao/IMG_1754.JPG" alt="consagração de pastores" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="/consagracao/IMG_1804.JPG" alt="consagração de pastores" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="/consagracao/IMG_1887.JPG" alt="consagração de pastores" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="/consagracao/IMG_1924.JPG" alt="consagração de pastores" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="/consagracao/IMG_1956.JPG" alt="consagração de pastores" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="/consagracao/IMG_2141.JPG" alt="consagração de pastores" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="/consagracao/IMG_2185.JPG" alt="consagração de pastores" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="/consagracao/IMG_1754.JPG" alt="consagração de pastores" />
-                            </SwiperSlide>
-                        </Swiper>
-                    </section>
-                </section>
-            </main>
-        </>
-    );
+                    ))}
+                </div>
+            </div>
+        </main>
+    )
 }
 
 export default Portal;
