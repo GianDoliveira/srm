@@ -16,12 +16,13 @@ function Consg() {
             <title>SRM | Notícias</title>
             <main className='mb-16'>
                 <section className="pt-56">
-                    <div className='flex flex-col justify-center items-center'>
-                        <h1 className="animate__animated animate__fadeInDown text-center text-5xl font-bold my-4 text-[#080451]">Notícias</h1>
-                    </div>
-                    <section className='flex flex-col lg:flex-row justify-center'>
-                        <div className="animate__animated animate__fadeInLeft text-center lg:w-60 p-5 border-gray-400">
-                            <p className='text-lg'><b>Consagração de pastores</b> para irem para o campo missionário, ambos com suas famílias: um com destino ao Piauí e outro para Teresina!</p>
+                    <h1 className="animate__animated animate__fadeInDown text-center text-5xl font-bold my-4 text-[#080451]">Notícias</h1>
+                    <section className='flex flex-col justify-center items-center'>
+                        <div className="animate__animated animate__fadeInLeft text-justify w-1/2 border-gray-400 my-10">
+                            <p className='text-lg'>Neste dia 30/06 acontece cerimônia de consagração dos pastores missionários Elison Jr e Tiago Sares, que estão sendo enviados para atuarem no Piauí, foi repleta de emoções intensas. Elison Jr será enviado para Amarante e Tiago Sares para Teresina. A consagração foi um momento marcante e emocionante para todos os presentes, onde os novos missionários foram abençoados e enviados com muita fé e dedicação para cumprir sua missão no estado do Piauí. A comunidade religiosa se uniu em orações e louvores durante a cerimônia, celebrando a jornada que está por vir e pedindo a proteção de Deus sobre os novos missionários.</p>
+                        </div>
+                        <div className="animate__animated animate__fadeInLeft text-justify w-1/2 border-gray-400 my-10">
+                            <p className='text-lg'>Durante a cerimônia, os pastores missionários foram exortados a permanecerem firmes em sua fé, a confiarem no Senhor e a serem exemplos de amor e dedicação para aqueles que encontrarem em sua jornada missionária. Eles foram encorajados a compartilhar o evangelho com amor e humildade, a servir ao próximo com generosidade e a serem instrumentos de paz e esperança onde quer que forem.</p>
                         </div>
                         <Swiper
                             pagination={{
@@ -55,6 +56,16 @@ function Consg() {
                                 <img src="/consagracao/IMG_1754.JPG" alt="consagração de pastores" />
                             </SwiperSlide>
                         </Swiper>
+                        <div className="animate__animated animate__fadeInLeft text-justify w-1/2 border-gray-400 my-10">
+                            <p className='text-lg'>
+                                Os presentes na cerimônia se emocionaram ao ver a entrega e dedicação dos pastores missionários, e se comprometeram a apoiá-los em oração e de todas as formas possíveis durante sua missão no Piauí. Foi um momento de união e comunhão, onde a presença de Deus se fez sentir de maneira poderosa e reconfortante.
+                            </p>
+                        </div>
+                        <div className="animate__animated animate__fadeInLeft text-justify w-1/2 border-gray-400 my-10">
+                            <p className='text-lg'>
+                                Que os pastores missionários Elison Jr e Tiago Sares e suas famílias sejam abençoados em sua jornada no Piauí, que sejam instrumentos de transformação e luz na vida daqueles que encontrarem, e que possam cumprir com excelência a missão que lhes foi confiada. Que Deus os guarde e os fortaleça em cada passo, e que o seu amor e a sua graça estejam sempre presentes em suas vidas e ministério. Amém.
+                            </p>
+                        </div>
                     </section>
                 </section>
             </main>
