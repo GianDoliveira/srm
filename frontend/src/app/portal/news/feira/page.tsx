@@ -15,11 +15,9 @@ function Consg() {
             <title>SRM | Notícias</title>
             <main className='mb-16'>
                 <section className="pt-56">
-                    <div className='flex flex-col justify-center items-center'>
-                        <h1 className="animate__animated animate__fadeInDown text-center text-5xl font-bold my-4 text-[#080451]">Notícias</h1>
-                    </div>
-                    <section className='flex flex-col lg:flex-row justify-center'>
-                        <div className="animate__animated animate__fadeInLeft text-center lg:w-60 p-5 border-gray-400">
+                    <h1 className="animate__animated animate__fadeInDown text-center text-5xl font-bold my-4 text-[#080451]">Notícias</h1>
+                    <section className='flex flex-col justify-center items-center'>
+                        <div className="animate__animated animate__fadeInLeft text-justify w-1/2 border-gray-400 my-10">
                             <p className='text-lg'>No sábado, dia 06/07, foi realizada uma feira missionária com o objetivo de arrecadar fundos para o projeto como PAi. O evento contou com a presença do Pastor missionário Elison Jr, que concedeu entrevistas. A festa das nações apresentou barracas temáticas ,uma vez que seu tema era a festa das nações onde os participantes puderam desfrutar de muita alegria e solidariedade.</p>
                         </div>
                         <Swiper
@@ -57,6 +55,7 @@ function Consg() {
                                 <img src="/feira/IMG_2488.jpg" alt="consagração de pastores" />
                             </SwiperSlide>
                         </Swiper>
+
                     </section>
                 </section>
             </main>
@@ -65,3 +64,4 @@ function Consg() {
 }
 
 export default Consg;
+

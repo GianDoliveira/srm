@@ -15,6 +15,12 @@ const newsItems = [
         image: "/feira/IMG_2488.jpg",
         description: "No sábado, dia 06/07, foi realizada uma feira missionária com o objetivo de arrecadar...",
         link: "/portal/news/feira"
+    },
+    {
+        title: "Chegada em Piauí!",
+        image: "/chegada/DSC_0157.JPG",
+        description: "A chegada do pastor missionário Elison e sua família em Amarante foi um momento marcante...",
+        link: "/portal/news/piaui"
     }
 ]
 
