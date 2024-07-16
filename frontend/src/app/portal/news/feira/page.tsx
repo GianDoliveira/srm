@@ -17,7 +17,7 @@ function Consg() {
                 <section className="pt-56">
                     <h1 className="animate__animated animate__fadeInDown text-center text-5xl font-bold my-4 text-[#080451]">Notícias</h1>
                     <section className='flex flex-col justify-center items-center'>
-                        <div className="animate__animated animate__fadeInLeft text-justify w-1/2 border-gray-400 my-10">
+                        <div className="animate__animated animate__fadeInLeft text-justify lg:w-1/2 px-5 border-gray-400 my-10">
                             <p className='text-lg'>No sábado, dia 06/07, foi realizada uma feira missionária com o objetivo de arrecadar fundos para o projeto como PAi. O evento contou com a presença do Pastor missionário Elison Jr, que concedeu entrevistas. A festa das nações apresentou barracas temáticas ,uma vez que seu tema era a festa das nações onde os participantes puderam desfrutar de muita alegria e solidariedade.</p>
                         </div>
                         <Swiper
