@@ -20,7 +20,7 @@ function Consg() {
                     <section className='flex flex-col justify-center items-center'>
                         <div className="animate__animated animate__fadeInLeft text-justify lg:w-1/2 px-5 border-gray-400 my-10">
                             <p className='text-lg'>
-                                Neste dia 30/06 aconteceu a cerimônia de consagração dos pastores missionários Elison Jr e Tiago Sares, que estão sendo enviados para atuarem no Piauí, foi repleta de emoções intensas. Elison Jr será enviado para Amarante e Tiago Sares para Teresina.
+                                Neste dia 30/06 aconteceu a cerimônia de consagração dos pastores missionários Elison Jr e Tiago Sarres, que estão sendo enviados para atuarem no Piauí, foi repleta de emoções intensas. Elison Jr será enviado para Amarante e Tiago Sarres para Teresina.
                                 A consagração foi um momento marcante e emocionante para todos os presentes, onde os novos missionários foram abençoados e enviados com muita fé e dedicação para cumprir sua missão no estado do Piauí.
                             </p>
                         </div>
@@ -69,7 +69,7 @@ function Consg() {
                         </div>
                         <div className="animate__animated animate__fadeInLeft text-justify lg:w-1/2 px-5 border-gray-400 my-10">
                             <p className='text-lg'>
-                                Que os pastores missionários Elison Jr e Tiago Sares e suas famílias sejam abençoados em sua jornada no Piauí, que sejam instrumentos de transformação e luz na vida daqueles que encontrarem, e que possam cumprir com excelência a missão que lhes foi confiada. Que Deus os guarde e os fortaleça em cada passo, e que o seu amor e a sua graça estejam sempre presentes em suas vidas e ministério.</p>
+                                Que os pastores missionários Elison Jr e Tiago Sarres e suas famílias sejam abençoados em sua jornada no Piauí, que sejam instrumentos de transformação e luz na vida daqueles que encontrarem, e que possam cumprir com excelência a missão que lhes foi confiada. Que Deus os guarde e os fortaleça em cada passo, e que o seu amor e a sua graça estejam sempre presentes em suas vidas e ministério.</p>
                         </div>
                     </section>
                 </section>
