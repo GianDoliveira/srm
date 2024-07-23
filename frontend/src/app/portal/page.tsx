@@ -21,6 +21,12 @@ const newsItems = [
         image: "/chegada/DSC_0157.JPG",
         description: "A chegada do pastor missionário Elison e sua família em Amarante foi um momento marcante...",
         link: "/portal/news/piaui"
+    },
+    {
+        title: "Pastor Tiago Sarres na Imw Teresina",
+        image: "/PosseTiago/IMG_1509.jpeg",
+        description: "O pastor deixou saudades em sua terra mais trouxe muitas alegrias para a igreja em Teresina.",
+        link: "/portal/news/posse"
     }
 ]
 
