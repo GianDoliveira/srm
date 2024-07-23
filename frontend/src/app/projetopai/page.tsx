@@ -49,11 +49,12 @@ function ProjetoPai() {
                             Com ofertas mensais a partir de R$ 20,00 você apadrinha uma criança neste lindo projeto. <br />
                             Seja um mantenedor. <br />
                             Para depósitos bancários: <br />
-                            Sec. Regional de Missões <br />
+                            Igreja Metodista Wesleyana Primeira Região<br />
+                            Secretaria Regional de Missões<br />
                             Banco Bradesco <br />
-                            Agência: 4226 <br />
-                            Conta Corrente: 130030579 <br />
-                            PIX: 13.836.364/0141-08 <br />
+                            Agência: 0401 <br />
+                            Conta Corrente: 0039673-7 <br />
+                            Cnpj: 13.836.364/0141-08 <br />
                         </p>
                     </div>
                 </section>
