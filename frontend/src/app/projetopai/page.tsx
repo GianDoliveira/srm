@@ -233,12 +233,6 @@ function ProjetoPai() {
                     <SwiperSlide>
                         <img alt="fotos do projeto" src="/pai/projetopai13.jpg" />
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <img alt="fotos do projeto" src="/pai/projetopai14.jpg" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img alt="fotos do projeto" src="/pai/projetopai15.jpg" />
-                    </SwiperSlide>
                 </Swiper>
             </section>
         </>
