@@ -1,0 +1,102 @@
+/* Estilo para o formulário */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form textarea,
+form input[type="file"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form textarea:focus,
+form input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+.uploader {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.uploader:hover {
+    border-color: #007bff;
+}
+
+.uploader img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.uploader #start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uploader #start .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.uploader #start .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.uploader #response {
+    display: none;
+}
+
+.uploader #file-progress {
+    width: 100%;
+    height: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.uploader #file-progress::-webkit-progress-bar {
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+.uploader #file-progress::-webkit-progress-value {
+    background-color: #007bff;
+    border-radius: 5px;
+}
