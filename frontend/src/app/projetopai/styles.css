@@ -41,7 +41,8 @@ body {
     height: 800px;
 }
 
-.mySwiperPai .swiper-slide img {
+.mySwiperPai .swiper-slide img,
+video {
     display: block;
     height: 700px;
     position: relative;
@@ -49,8 +50,10 @@ body {
 }
 
 @media (max-width: 768px) {
-    .mySwiperPai .swiper-slide img {
-        width: 500px;
-        height: 800px;
+
+    .mySwiperPai .swiper-slide img,
+    video {
+        width: 550px;
+        height: 730px;
     }
 }

@@ -176,8 +176,18 @@ function ProjetoPai() {
                         </div>
                     </div>
                 </section>
+                <section className="flex justify-center items-center mb-20">
+                    <video
+                        width="400"
+                        height="800"
+                        controls
+                    >
+                        <source src="./video/projetopai.mp4" type="video/mp4" />
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </section>
             </main>
-            <main className="">
+            <main>
                 <Swiper
                     effect={'coverflow'}
                     grabCursor={true}
@@ -232,6 +242,9 @@ function ProjetoPai() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <img alt="fotos do projeto" src="/pai/projetopai13.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <video width="800" height="400" controls src="/video/projetopai (2).mp4" />
                     </SwiperSlide>
                 </Swiper>
             </main>
