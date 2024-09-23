@@ -244,7 +244,9 @@ function ProjetoPai() {
                         <img alt="fotos do projeto" src="/pai/projetopai13.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <video width="800" height="400" controls src="/video/projetopai (2).mp4" />
+                        <video width="800" height="400" controls>
+                            <source src="/video/projetopai (2).mp4" />
+                        </video>
                     </SwiperSlide>
                 </Swiper>
             </main>

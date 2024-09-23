@@ -77,8 +77,9 @@ function Mission() {
                 <section className="flex justify-center items-center mb-20">
                     <video
                         width="800"
-                        height="450"
+                        height="auto"
                         controls
+
                     >
                         <source src="./video/campomissionario.mp4" type="video/mp4" />
                         Seu navegador não suporta o elemento de vídeo.
