@@ -177,7 +177,7 @@ function ProjetoPai() {
                     </div>
                 </section>
             </main>
-            <section className="">
+            <main className="">
                 <Swiper
                     effect={'coverflow'}
                     grabCursor={true}
@@ -234,7 +234,7 @@ function ProjetoPai() {
                         <img alt="fotos do projeto" src="/pai/projetopai13.jpg" />
                     </SwiperSlide>
                 </Swiper>
-            </section>
+            </main>
         </>
     )
 }

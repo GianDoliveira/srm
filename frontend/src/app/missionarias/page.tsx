@@ -10,7 +10,6 @@ function Missionarias() {
                     <h1 className="animate__animated animate__fadeInDown text-center text-2xl lg:text-5xl font-bold my-4 text-[#080451]">MISSIONÁRIAS</h1>
                     <div>
                         <p className="animate__animated animate__fadeInLeft text-center text-lg font-bold my-4 text-[#080451]">POSTS direcionado aos trabalhos das missionárias</p>
-                        <p className="animate__animated animate__fadeInRight text-center text-lg font-bold my-4 text-[#080451]">Atualizações semanais</p>
                     </div>
                 </section>
             </main>
