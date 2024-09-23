@@ -9,7 +9,7 @@ function Mission() {
                 <h1 className="relative top-80 animate__animated animate__fadeInDown text-center text-2xl lg:text-5xl font-bold text-[#080451]">
                     CAMPO MISSIONÁRIO
                 </h1>
-                <section className="h-screen relative top-24 flex flex-col lg:flex-row justify-center lg:justify-around items-center">
+                <section className="h-screen relative top-36 flex flex-col lg:flex-row justify-center lg:justify-around items-center">
                     <div>
                         <Image
                             src="/campomissionario.jpg"
@@ -71,7 +71,7 @@ function Mission() {
                 </section>
             </main>
             <main>
-                <h1 className="mb-10 animate__animated animate__fadeInDown text-center text-2xl lg:text-5xl font-bold text-[#080451]">
+                <h1 className="lg:mb-10 animate__animated animate__fadeInDown text-center text-2xl lg:text-5xl font-bold text-[#080451]">
                     NOSSO TRABALHO
                 </h1>
                 <section className="flex justify-center items-center mb-20">
