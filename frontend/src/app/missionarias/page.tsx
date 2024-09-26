@@ -1,26 +1,25 @@
 "use client";
 
 import 'animate.css';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
 import './styles.css';
+import { FadeInDown } from "../../libraries/ScrollAnimation";
 import Image from 'next/image';
 
 function Missionaria({ title, content, imageSrc }: any) {
     return (
-        <section className='flex flex-col justify-center items-center'>
-            <div className='lg:w-3/4 px-10 py-5 lg:py-10 border-gray-400'>
-                <h2 className="animate__animated animate__fadeInLeft text-2xl font-bold text-[#080451]">{title}</h2>
-                {content.map((paragraph: any, index: any) => (
-                    <p key={index} className='py-1 text-xl'>{paragraph}</p>
-                ))}
-            </div>
-            <div>
-                <img className='image' src={imageSrc} alt={title} />
-            </div>
-        </section>
+        <main>
+            <section className='flex flex-col justify-center items-center'>
+                <div className='lg:w-3/4 px-10 py-5 lg:py-10 border-gray-400'>
+                    <h2 className="animate__animated animate__fadeInLeft text-2xl font-bold text-[#080451]">{title}</h2>
+                    {content.map((paragraph: any, index: any) => (
+                        <p key={index} className='animate__animated animate__fadeInLeft py-1 text-xl'>{paragraph}</p>
+                    ))}
+                </div>
+                <div>
+                    <Image width={600} height={800} className='image' src={imageSrc} alt={title} />
+                </div>
+            </section>
+        </main>
     );
 }
 
@@ -59,12 +58,12 @@ function Missionarias() {
             <title>SRM | Missionárias</title>
             <main className='mb-5' id="missionarias">
                 <h1 className="animate__animated animate__fadeInDown relative top-64 text-center text-2xl lg:text-5xl font-bold mb-4 text-[#080451]">MISSIONÁRIAS</h1>
-                <section className="relative pt-64 flex flex-col justify-center items-center">
-                    <section>
+                <section>
+                    <section className="relative pt-64 flex flex-col justify-center items-center">
                         <Missionaria
                             title="Missionária Lindinalva Claudia"
                             content={lindinalvaContent}
-                            imageSrc="./missionarias/lindinalva.JPG"
+                            imageSrc="/missionarias/lindinalva.JPG"
                         />
                         <section className='flex flex-col justify-center items-center'>
                             <div className='lg:w-3/4 px-10 py-5 lg:py-10 border-gray-400'>
@@ -72,18 +71,8 @@ function Missionarias() {
                                 <p className='py-1 text-xl'>Enfrentamos o grande desafio de organizar projetos sociais, e nosso objetivo é cuidar da igreja, pois somos seus mordomos. Sabemos que ela pertence a um único dono: Jesus Cristo.</p>
                             </div>
                             <div>
-                                <Swiper
-                                    pagination={{ dynamicBullets: true }}
-                                    modules={[Pagination]}
-                                    className="mySwiper"
-                                >
-                                    <SwiperSlide>
-                                        <Image width={600} height={400} src="/missionarias/lindinalva2.JPG" alt="Miss Luciana na igreja pregando" />
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Image width={600} height={400} src="/missionarias/lindinalva3.JPG" alt="Miss Luciana na igreja pregando" />
-                                    </SwiperSlide>
-                                </Swiper>
+                                <img src="/missionarias/lindinalva2.JPG" alt="Miss Lindinalva com crianças" />
+                                <img src="/missionarias/lindinalva3.JPG" alt="Miss Lindinalva com crianças" />
                             </div>
                         </section>
                         <section className='flex flex-col justify-center items-center'>
@@ -93,22 +82,22 @@ function Missionarias() {
                                 <p className='py-1 text-xl'>A Secretaria de Missões tem o privilégio de contar com pessoas comprometidas com o crescimento do Reino. Por isso, quero convidar você a fazer parte dessa obra. Venha servir ao Senhor junto conosco e trabalhar na Secretaria de Missões!</p>
                             </div>
                             <div>
-                                <img src="./missionarias/lindinalva4.JPG" className='image' />
+                                <Image alt='missionarias' width={600} height={800} src="/missionarias/lindinalva4.JPG" className='image' />
                             </div>
                         </section>
                     </section>
-                    <section>
+                    <section className="relative pt-64 flex flex-col justify-center items-center">
                         <Missionaria
                             title="Missionária Valquíria"
                             content={valquiriaContent}
-                            imageSrc="./missionarias/valquiriaWesleyana.JPG"
+                            imageSrc="/missionarias/valquiriaWesleyana.JPG"
                         />
                     </section>
-                    <section>
+                    <section className="relative pt-64 flex flex-col justify-center items-center">
                         <Missionaria
                             title="Missionária Luciana Moraes"
                             content={lucianaContent}
-                            imageSrc="./missionarias/luciana2.JPG"
+                            imageSrc="/missionarias/luciana2.JPG"
                         />
 
                         <section className='flex flex-col justify-center items-center'>
@@ -116,18 +105,8 @@ function Missionarias() {
                                 <p className='py-1 text-xl'>Eu fui líder distrital de adolescentes...</p>
                             </div>
                             <div>
-                                <Swiper
-                                    pagination={{ dynamicBullets: true }}
-                                    modules={[Pagination]}
-                                    className="mySwiper"
-                                >
-                                    <SwiperSlide>
-                                        <Image width={600} height={400} src="/missionarias/luciana3.JPG" alt="Miss Luciana na igreja pregando" />
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Image width={600} height={400} src="/missionarias/luciana4.JPG" alt="Miss Luciana na igreja pregando" />
-                                    </SwiperSlide>
-                                </Swiper>
+                                <img src="/missionarias/luciana3.JPG" alt="Miss Luciana na igreja pregando" />
+                                <img src="/missionarias/luciana4.JPG" alt="Miss Luciana na igreja pregando" />
                             </div>
                         </section>
                         <section className='flex flex-col justify-center items-center'>
@@ -135,7 +114,7 @@ function Missionarias() {
                                 <p className='py-1 text-xl'>Minha primeira missão foi na Região dos Lagos, quando conheci essa turma da ESCMIW. Pedi para ir com os jovens passar o Carnaval, dormindo no chão da igreja e fazendo evangelismo. Lembro que eles ficaram preocupados, pois já me conheciam como uma adulta e esposa de pastor; era incomum eu dormir no chão com eles. Mas, com a minha insistência, eles acabaram concordando em me levar. Na época, o líder era o hoje Pr. Vitor, de Cabo Frio.</p>
                             </div>
                             <div>
-                                <img src="./missionarias/luciana5.JPG" className='image' />
+                                <Image alt='missionarias' width={600} height={800} src="/missionarias/luciana5.JPG" className='image' />
                             </div>
                         </section>
                         <section className='flex flex-col justify-center items-center'>
@@ -143,7 +122,7 @@ function Missionarias() {
                                 <p className='py-1 text-xl'>Eu estava em Curitiba, em Campo Largo, participando de um trabalho da ESCMIW geral. Foram dias de muito esforço e dedicação naquele lugar.</p>
                             </div>
                             <div>
-                                <img src="./missionarias/luciana6.JPG" className='image' />
+                                <Image alt='missionarias' width={600} height={800} src="/missionarias/luciana6.JPG" className='image' />
                             </div>
                         </section>
                         <section className='flex flex-col justify-center items-center'>
@@ -153,7 +132,7 @@ function Missionarias() {
                                 </p>
                             </div>
                             <div>
-                                <img src="./missionarias/luciana7.JPG" className='image' />
+                                <Image alt='missionarias' width={600} height={800} src="/missionarias/luciana7.JPG" className='image' />
                             </div>
                         </section>
                         <section className='flex flex-col justify-center items-center'>
@@ -163,7 +142,7 @@ function Missionarias() {
                                 </p>
                             </div>
                             <div>
-                                <img src="./missionarias/luciana8.JPG" className='image' />
+                                <Image alt='missionarias' width={600} height={800} src="/missionarias/luciana8.JPG" className='image' />
                             </div>
                         </section>
                         <section className='flex flex-col justify-center items-center'>
@@ -172,7 +151,7 @@ function Missionarias() {
                                     E lá fomos chamados pelo prefeito para abençoar a cidade .                            </p>
                             </div>
                             <div>
-                                <img src="./missionarias/luciana9.JPG" className='image' />
+                                <Image alt='missionarias' width={600} height={800} src="/missionarias/luciana9.JPG" className='image' />
                             </div>
                         </section>
                         <section className='flex flex-col justify-center items-center'>
@@ -182,7 +161,7 @@ function Missionarias() {
                                 </p>
                             </div>
                             <div>
-                                <img src="./missionarias/luciana10.JPG" className='image' />
+                                <Image alt='missionarias' width={600} height={800} src="/missionarias/luciana10.JPG" className='image' />
                             </div>
                         </section>
                         <section className='flex flex-col justify-center items-center'>
@@ -192,7 +171,7 @@ function Missionarias() {
                                 </p>
                             </div>
                             <div>
-                                <img src="./missionarias/luciana11.JPG" className='image' />
+                                <Image alt='missionarias' width={600} height={800} src="/missionarias/luciana11.JPG" className='image' />
                             </div>
                         </section>
                         <section className='flex flex-col justify-center items-center'>
@@ -205,18 +184,18 @@ function Missionarias() {
                                 </p>
                             </div>
                             <div>
-                                <img src="./missionarias/luciana12.JPG" className='image' />
+                                <Image alt='missionarias' width={600} height={800} src="/missionarias/luciana12.JPG" className='image' />
                             </div>
                         </section>
                     </section>
-                </section>
-                <section>
-                    <Missionaria
-                        title="Missionária Patrícia Vieira"
-                        content={patriciaContent}
-                        imageSrc="./missionarias/patricia.JPG"
-                    />
+                    <section className="relative pt-64 flex flex-col justify-center items-center">
+                        <Missionaria
+                            title="Missionária Patrícia Vieira"
+                            content={patriciaContent}
+                            imageSrc="/missionarias/patricia.JPG"
+                        />
 
+                    </section>
                 </section>
             </main>
         </>
