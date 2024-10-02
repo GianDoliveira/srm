@@ -66,6 +66,15 @@ function Mission() {
                                     Ações Escomiw 2024
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    download="RelatórioCampoMissionárioSetembro.pdf"
+                                    href="./pdf/RelatórioCampoMissionárioSetembro.pdf"
+                                    className='text-blue-600 visited:text-purple-600 hover:underline'
+                                >
+                                    Relatório do Campo Missionário Setembro
+                                </a>
+                            </li>
                         </ul>
                     </aside>
                 </section>
