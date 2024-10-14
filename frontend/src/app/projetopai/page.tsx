@@ -9,8 +9,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
-import { EffectCoverflow, Pagination } from 'swiper/modules';
-import img from "next/image";
+import { Pagination } from 'swiper/modules';
 
 function ProjetoPai() {
     return (
@@ -189,19 +188,10 @@ function ProjetoPai() {
             </main>
             <main>
                 <Swiper
-                    effect={'coverflow'}
-                    grabCursor={true}
-                    centeredSlides={true}
-                    slidesPerView={'auto'}
-                    coverflowEffect={{
-                        rotate: 50,
-                        stretch: 0,
-                        depth: 100,
-                        modifier: 1,
-                        slideShadows: true,
+                    pagination={{
+                        dynamicBullets: true,
                     }}
-                    pagination={true}
-                    modules={[EffectCoverflow, Pagination]}
+                    modules={[Pagination]}
                     className="mySwiperPai"
                 >
                     <SwiperSlide>
@@ -242,6 +232,9 @@ function ProjetoPai() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <img alt="fotos do projeto" src="/pai/projetopai13.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img alt="fotos do projeto" src="/pai/projetopai14.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
                         <video width="800" height="400" controls>

@@ -72,7 +72,16 @@ function Mission() {
                                     href="./pdf/RelatórioCampoMissionárioSetembro.pdf"
                                     className='text-blue-600 visited:text-purple-600 hover:underline'
                                 >
-                                    Relatório do Campo Missionário Setembro
+                                    Relatório do Campo Missionário Setembro - IMW Amarante
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    download="RelatórioCampoMissionárioSetembro2.pdf"
+                                    href="./pdf/RelatórioCampoMissionárioSetembro2.pdf"
+                                    className='text-blue-600 visited:text-purple-600 hover:underline'
+                                >
+                                    Relatório do Campo Missionário Setembro - IMW Teresina
                                 </a>
                             </li>
                         </ul>
